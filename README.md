@@ -1,1 +1,1 @@
-# jsonlabo
+#### Travail de session en équipe, dans le cadre du cours INF2015 Groupe 40 Hiver 2018.
