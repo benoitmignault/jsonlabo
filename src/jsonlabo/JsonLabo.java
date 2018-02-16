@@ -57,19 +57,21 @@ public class JsonLabo {
                         ]
         }
         */        
-        JSONObject obj = new JSONObject();
+        JSONObject newJson = new JSONObject();
         JSONObject articles1 = new JSONObject();
         JSONObject articles2 = new JSONObject();
         articles1.put("id",125);
         articles2.put("nom","Breaking Bad");       
-        obj.put("noCommande", 10432);
-        obj.put("date", "2014-01-23");
-        obj.put("total", 35.99);
-        obj.put("articles", articles1);
+        newJson.put("noCommande", 10432);
+        newJson.put("date", "2014-01-23");
+        newJson.put("total", 35.99);
+        newJson.put("articles", articles1);
         // obj.put("articles", articles2); cette action écrase la précédente comme il a le même nom
-        obj.accumulate("articles", articles2);
+        newJson.accumulate("articles", articles2);
         
-        System.out.print(obj); 
+        System.out.print(newJson);
+        
+        
     }
     
     public static String StringFromFile(String PathToFile){
