@@ -1,1 +1,11 @@
-{"noCommande":1,"date":"2018-02-15","total":58.97,"articles":[{"prix":9.99,"id":124,"type":"film","nom":"Robocop","quantite":5},{"prix":27.99,"id":126,"type":"film","nom":"Captain Phillips","quantite":0},{"prix":20.99,"id":129,"type":"film","nom":"Lone Ranger","quantite":2}]}
+{
+    "noCommande":1,
+    "date":"2018-02-15",
+    "total":58.97,
+    "articles":
+    [
+        {"prix":9.99,"id":124,"type":"film","nom":"Robocop","quantite":5},
+        {"prix":27.99,"id":126,"type":"film","nom":"Captain Phillips","quantite":0},
+        {"prix":20.99,"id":129,"type":"film","nom":"Lone Ranger","quantite":2}
+    ]
+}
