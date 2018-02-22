@@ -7,8 +7,8 @@ import java.io.FileWriter;
 import org.json.*;
 import java.io.IOException;
 import java.io.PrintWriter;
-//import java.nio.file.Files;
-//import java.nio.file.Paths;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class JsonLabo {
 
@@ -113,13 +113,14 @@ public class JsonLabo {
 
     public static String StringFromFile(String PathToFile) {
         String fileContent = "";
-        /*
+        
         try {
             fileContent = new String(Files.readAllBytes(Paths.get(PathToFile)));
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
 
+        /*
         try {
             BufferedReader br = new BufferedReader(new FileReader(PathToFile));
             String line = br.readLine();
@@ -132,7 +133,7 @@ public class JsonLabo {
         } catch (IOException ex) {
             System.out.println("Problème d'ouverture du fichier" + "biblio.txt");
         }
-
+*/
         return fileContent;
 
     }
